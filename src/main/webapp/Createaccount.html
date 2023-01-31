@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+	<style type="text/css">
+		sup{
+			color: red;
+		}
+
+	</style>
+</head>
+<body>
+<div>
+	<form action="register" method="post">
+		<fieldset>
+			<legend align = "center">REGISTRATION FORM </legend><br>
+			
+			<label> Name : <sup>*</sup> </label>
+			<input type="text" name=" name" required autofocus><br><br>
+			<label>Contact No : <sup>*</sup> </label>
+			<input type="text" name="mobno" maxlength="10" "><br><br>
+			<label for="email">Email Id: <sup>*</sup> </label>
+			<input type="email" name="email" required value="@gmail.com"><br><br>
+			<label >password:<sup>*</sup></label>
+			<input type="password" name="password">	<br><br>
+			<label>Age:</label>
+			<input type="text" name="age">	<br><br>
+			
+			<input type="Submit" name="Submit">
+			<input type="Reset" name="Reset">
+
+
+		</fieldset>
+	</form>
+</div>	
+</body>
+</html>
